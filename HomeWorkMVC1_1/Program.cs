@@ -8,6 +8,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
+/// <summary>
+/// Максим Торопов
+/// Ярославль
+/// https://github.com/MaxMaxoff
+/// 
+/// Домашняя работа "С# ASP.NET MVC 6. Уровень 1"
+/// 1 урок
+/// </summary>
 namespace HomeWorkMVC1_1
 {
     public class Program
