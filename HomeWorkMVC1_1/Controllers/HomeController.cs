@@ -29,7 +29,7 @@ namespace HomeWorkMVC1_1.Controllers
             }
         };
 
-        private IActionResult Details(int id)
+        public IActionResult Details(int id)
         {
             return View(_employees.Find(item => item.Id == id));
         }
