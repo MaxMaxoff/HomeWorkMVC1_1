@@ -1,0 +1,25 @@
+﻿@model HomeWorkMVC1_1.Models.EmployeeView
+@{
+    ViewData["Title"] = "Детали";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Details</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>@Model.FirstName</td>
+            <td>@Model.SurName</td>
+            <td>@Model.Patronymic</td>
+            <td>@Model.Age</td>
+        </tr>
+    </table>
+    @Html.ActionLink("Назад", "Index")
+</body>
+</html>
